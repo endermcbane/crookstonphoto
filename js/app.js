@@ -2,7 +2,10 @@ $(document).ready(function(){
 var imageCount = 1
 function nextPhoto () {
 		imageCount = imageCount+1;
-		document.getElementById('imageholder').style.backgroundImage = 'url("images/2.jpg")';
+		if (imageCount > 2){
+			imageCount = 1
+		}
+		document.getElementById('imageholder').style.backgroundImage = 'url("images/'+imageCount+'.jpg")';
 		console.log(imageCount)
 
 	};
