@@ -42,7 +42,7 @@ clear:left;
 .navigation li {
 	margin-top: .5em;
 	margin-right: 5%;
-	float:right;
+	float: right;
 	clear:left;
 	vertical-align: middle;
 	position:relative;
@@ -50,6 +50,7 @@ clear:left;
 	border-right: solid #646464 1px;
 	padding-left: .5%;
 	padding-right: .5%;
+	display: inline-block;
 }
 
 
