@@ -1,25 +1,57 @@
 /*crookston photo*/
+
+* {
+	border: 2px solid white;
+}
+
+.heading {
+	padding: 1%;
+	background-color: white;
+	position:relative;
+	z-index: 2;
+	border: 2px solid black;
+
+}
+
 #title {
 	font-family: cursive;
-	display:inline-block;
-	color:white;
-	opacity:.9;
+	display: inline;
+	
+	color: rgb(100,100,100);
+	opacity:5;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 2.5em;
 
 }
 #title2 {
 	font-family: sans-serif;
-	display:inline-block;
-}
-
-html .heading {
-	padding: 2%;
-	opacity: .5;
 	
-	background-color: black;
-	position:relative;
-	z-index: 2;
+}
+
+.navigation {
+z-index: 3;
+color:rgb(100,100,100);
+display: inline;
+font-size: 1.3em;
+border: 2px solid black;
+clear:left;
 
 }
+
+.navigation li {
+	margin-top: .5em;
+	margin-right: 5%;
+	float:right;
+	clear:left;
+	vertical-align: middle;
+	position:relative;
+	border-left: solid #646464 1px;
+	border-right: solid #646464 1px;
+	padding-left: .5%;
+	padding-right: .5%;
+}
+
 
 #imageholder{
 	background-image: url("../images/1.jpg");
@@ -30,24 +62,11 @@ html .heading {
   background-size: cover;
   position: absolute;
 left: 0;
-top: 0;
+
 width: 100%;
 height: 100%;
-z-index: 1;
-display: block;
+
+
 
 background-position: center;
-}
-
-#test {
-
-	position: absolute;
-left: 0;
-top: 0;
-width: 100%;
-height: 100%;
-overflow: hidden;
-display: block;
-opacity: 0;
-background-position: center!important;
 }
