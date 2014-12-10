@@ -1,16 +1,16 @@
 $(document).ready(function(){
 var imageCount = 1
 
-var myimage = document.getElementById("imageholder").naturalWidth;
 
-console.log(myimage);
+
+
 
 function nextPhoto () {
 		imageCount = imageCount+1;
-		if (imageCount > 2){
+		if (imageCount > 24){
 			imageCount = 1
 		}
-		document.getElementById('imageholder').style.backgroundImage = 'url("images/'+imageCount+'.jpg")';
+		document.getElementById('imageholder').style.backgroundImage = 'url("images/p'+imageCount+'.jpg")';
 		console.log(imageCount)
 
 	};
@@ -20,7 +20,7 @@ function previousPhoto () {
 		if (imageCount <= 0){
 			imageCount = 2
 		}
-		document.getElementById('imageholder').style.backgroundImage = 'url("images/'+imageCount+'.jpg")';
+		document.getElementById('imageholder').style.backgroundImage = 'url("images/p'+imageCount+'.jpg")';
 		console.log(imageCount)
 
 	};
