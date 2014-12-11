@@ -7,7 +7,7 @@ console.log(myimage);
 
 function nextPhoto () {
 		imageCount = imageCount+1;
-		if (imageCount > 2){
+		if (imageCount > 6){
 			imageCount = 1
 		}
 		document.getElementById('imageholder').style.backgroundImage = 'url("images/'+imageCount+'.jpg")';
@@ -18,7 +18,7 @@ function nextPhoto () {
 function previousPhoto () {
 		imageCount = imageCount-1;
 		if (imageCount <= 0){
-			imageCount = 2
+			imageCount = 6
 		}
 		document.getElementById('imageholder').style.backgroundImage = 'url("images/'+imageCount+'.jpg")';
 		console.log(imageCount)
