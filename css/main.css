@@ -63,10 +63,9 @@ clear:left;
   position: absolute;
 left: 0;
 width: 100%;
-height: 100%;
+height: 92%;
 background-position: center;
 }
-
 
 a {
 	text-decoration: none;
@@ -87,14 +86,14 @@ a:hover {
 background-image: url("../images/arrow.png");
 background-repeat: no-repeat;
 position: absolute;
-z-index: 4;
-width:15%;
-height:50%;
-text-align: right;
-margin-left: 25%;
-border: white solid 2px;
-top:45%;
-right: 10px;
+z-index: 14;
+width:3%;
+height:10%;
+
+display: none;
+/*border:2px solid white;*/
+top:40%;
+right: 20px;
 }
 
 .backImage{
@@ -102,10 +101,51 @@ right: 10px;
 background-repeat: no-repeat;
 position: absolute;
 z-index: 5;
-width:15%;
-height:50%;
-border: white solid 2px;
+width:10%;
+height:10%;
+top:40%;
+display:none;
+left:20px;
+
 }
+
+#advance{
+	right:1px;
+	width:50%;
+	
+	position:absolute;
+	z-index: 12;
+	height: 75%;
+	top: 15%;
+}
+
+#previous{
+left:1px;
+	width:25%;
+
+	
+	position:absolute;
+	z-index: 12;
+	height: 75%;
+	top: 15%;
+}
+
+
+#imageholderPort{
+	background-color: black;
+	background-image: url("../images/p1.jpg");
+	background-repeat:  no-repeat;
+	-webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  position: absolute;
+left: 0;
+width: 100%;
+height: 90%;
+background-position: center;
+}
+
 /*#imageholder{
 	
 	
