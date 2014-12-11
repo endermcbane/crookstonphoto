@@ -73,4 +73,22 @@ $('#previous').mouseenter(function() {
 $('.backImage').mouseenter(function() {
 	    $('.backImage').show();
 	  })
+
+$("#pain").on('click', '#smallimage', function(){
+		imageCount = 0
+		nextPhoto();
+		clearInterval(autoAdvance);
+	});
+
+$(".body").on('click', '#collapse', function(){
+		$('#pain').hide();	
+		$('#collapse').hide();
+		$('#expand').show();
+	});
+
+$(".body").on('click', '#expand', function(){
+		$('#pain').show();	
+		$('#collapse').show();
+		$('#expand').hide();
+	});
 });
