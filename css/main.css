@@ -156,7 +156,7 @@ background-position: center;
 	z-index: 10;
 }
 
-#smallimage{
+#smallimage1{
 	background-image: url("../images/p1.jpg");
 	width:10%;
 	height:100%;
@@ -164,6 +164,18 @@ background-position: center;
 	z-index: 16;
 	background-size:cover;
 	background-position: center;
+
+}
+
+#smallimage2{
+	background-image: url("../images/p2.jpg");
+	width:10%;
+	height:100%;
+	position:relative;
+	z-index: 16;
+	background-size:cover;
+	background-position: center;
+	margin-left:10%;
 
 }
 
